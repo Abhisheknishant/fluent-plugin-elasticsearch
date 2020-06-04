@@ -18,6 +18,22 @@ jobs:
       gemfile: gemfiles/Gemfile.elasticsearch.v6
       os: linux
       arch: amd64
+    - rvm: 2.4.6
+      gemfile: Gemfile
+      os: linux
+      arch: arm64
+    - rvm: 2.5.5
+      gemfile: Gemfile
+      os: linux
+      arch: arm64
+    - rvm: 2.6.3
+      gemfile: gemfiles/Gemfile.without.ilm
+      os: linux
+      arch: arm64
+    - rvm: 2.6.3
+      gemfile: gemfiles/Gemfile.elasticsearch.v6
+      os: linux
+      arch: arm64
     - rvm: 2.6.3
       gemfile: Gemfile
       os: linux
